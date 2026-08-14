@@ -59,7 +59,7 @@ body {
 .section-heading h2 span { color: var(--blue); }
 .section-heading > p { max-width: 470px; margin: 0 0 3px; color: var(--muted); font-size: 16px; line-height: 1.58; }
 
-.overview-grid { display: grid; grid-template-columns: 1fr; gap: 24px; align-items: start; }
+.overview-grid { display: flex; flex-direction: column; gap: 24px; align-items: stretch; }
 .abstract-card, .overview-figure { border: 1px solid var(--line); border-radius: 16px; background: #fff; box-shadow: var(--shadow); }
 .abstract-card { padding: 29px 31px; }
 .abstract-label { color: var(--blue); font-size: 12px; font-weight: 700; letter-spacing: .13em; }
@@ -114,7 +114,7 @@ body {
 .stat-value { display: block; color: var(--ink); font: 600 44px/1 'Space Grotesk', sans-serif; letter-spacing: -.055em; }
 .stat-value span { color: var(--blue); font-size: 25px; }
 .stat-label { display: block; min-height: 40px; margin-top: 8px; color: var(--muted); font-size: 13px; }
-.correlation-values { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+.correlation-values { display: flex; flex-direction: row; align-items: flex-start; gap: 34px; }
 .correlation-values > div { min-width: 0; }
 .correlation-card .stat-value { font-size: 39px; }
 .corr-label { display: block; margin-top: 3px; color: var(--blue); font-size: 12px; font-weight: 700; letter-spacing: .04em; }
@@ -168,6 +168,7 @@ body {
   .section-heading { display: block; }
   .section-heading > p { margin-top: 22px; }
   .comparison-grid { grid-template-columns: 1fr; }
+  .correlation-values { gap: 22px; }
   .audio-group-title { display: block; }
   .audio-group-title small { display: block; margin-top: 6px; }
   .audio-pair { grid-template-columns: 1fr; }
