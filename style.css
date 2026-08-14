@@ -116,9 +116,11 @@ body {
 .stat-value { display: block; color: var(--ink); font: 600 44px/1 'Space Grotesk', sans-serif; letter-spacing: -.055em; }
 .stat-value span { color: var(--blue); font-size: 25px; }
 .stat-label { display: block; min-height: 40px; margin-top: 8px; color: var(--muted); font-size: 13px; }
-.correlation-values { display: flex; flex-direction: row; align-items: flex-start; gap: 34px; }
+.correlation-card { text-align: center; }
+.correlation-values { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; gap: 18px; width: 100%; }
 .correlation-values > div { min-width: 0; }
 .correlation-card .stat-value { font-size: 39px; }
+.correlation-card .stat-label { text-align: center; }
 .corr-label { display: block; margin-top: 3px; color: var(--blue); font-size: 12px; font-weight: 700; letter-spacing: .04em; }
 .correlation-rule { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 18px; }
 .correlation-rule i { display: block; height: 5px; border-radius: 5px; background: var(--blue); }
