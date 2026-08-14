@@ -59,12 +59,12 @@ body {
 .section-heading h2 span { color: var(--blue); }
 .section-heading > p { max-width: 470px; margin: 0 0 3px; color: var(--muted); font-size: 16px; line-height: 1.58; }
 
-.overview-grid { display: grid; grid-template-columns: minmax(0, .82fr) minmax(0, 1.38fr); gap: 22px; align-items: start; }
+.overview-grid { display: grid; grid-template-columns: 1fr; gap: 24px; align-items: start; }
 .abstract-card, .overview-figure { border: 1px solid var(--line); border-radius: 16px; background: #fff; box-shadow: var(--shadow); }
 .abstract-card { padding: 29px 31px; }
 .abstract-label { color: var(--blue); font-size: 12px; font-weight: 700; letter-spacing: .13em; }
 .abstract-card p { margin: 17px 0 0; color: #566174; font-size: 14px; line-height: 1.73; }
-.overview-figure { margin: 0; padding: 12px 12px 10px; }
+.overview-figure { margin: 0; padding: 16px 16px 12px; }
 .overview-figure img { display: block; width: 100%; aspect-ratio: 2 / 1; object-fit: contain; border-radius: 9px; background: #fff; }
 .overview-figure figcaption { margin: 9px 3px 0; color: #7e899b; font-size: 12px; }
 
@@ -114,6 +114,13 @@ body {
 .stat-value { display: block; color: var(--ink); font: 600 44px/1 'Space Grotesk', sans-serif; letter-spacing: -.055em; }
 .stat-value span { color: var(--blue); font-size: 25px; }
 .stat-label { display: block; min-height: 40px; margin-top: 8px; color: var(--muted); font-size: 13px; }
+.correlation-values { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+.correlation-values > div { min-width: 0; }
+.correlation-card .stat-value { font-size: 39px; }
+.corr-label { display: block; margin-top: 3px; color: var(--blue); font-size: 12px; font-weight: 700; letter-spacing: .04em; }
+.correlation-rule { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 18px; }
+.correlation-rule i { display: block; height: 5px; border-radius: 5px; background: var(--blue); }
+.correlation-rule i:last-child { background: var(--mint); }
 .stat-bar { height: 5px; margin-top: 18px; overflow: hidden; border-radius: 6px; background: #edf0f5; }
 .stat-bar i { display: block; height: 100%; border-radius: inherit; background: var(--blue); }
 .stat-bar.mint i { background: var(--mint); }
