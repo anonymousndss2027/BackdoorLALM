@@ -1,24 +1,17 @@
-# BackdoorLALM
+# BackdoorLALM Demo
 
-Anonymous code and experimental resources for:
+Official anonymous demo for **How Do Audio Triggers Work? Understanding the Mechanism of Backdoor Attacks in Large Audio-Language Models**, submitted to the Network and Distributed System Security (NDSS) Symposium 2027.
 
-**How Do Audio Triggers Work? Understanding the Mechanism of Backdoor Attacks in Large Audio-Language Models**
+## About
 
-This repository will contain the implementation, experiment configurations, evaluation scripts, and figure-generation utilities accompanying the paper.
+This work studies why audio triggers exhibit different effectiveness in backdoor attacks against large audio-language models (LALMs). From the perspective of encoder representations, we characterize audio triggers through representation consistency and representation separability and show that their joint score is strongly positively correlated with backdoor attack success. Based on this mechanism, we develop a unified representation-guided framework for low-budget backdoor attacks and defense.
 
-## Repository status
+The demo presents the overall framework and representative audio examples for the clean input, six baseline triggers, the proposed attack, and their defended counterparts.
 
-The repository is being prepared for anonymous review. Experiment resources will be organized here as they are released.
+## Online demo
 
-## Scope
+[Open the BackdoorLALM demo](https://anonymousndss2027.github.io/BackdoorLALM/)
 
-The code will cover:
+## Code
 
-- representation consistency, separability, and TES computation;
-- representation-guided attack and defense experiments;
-- model fine-tuning and evaluation configurations;
-- result aggregation and figure/table generation.
-
-## License
-
-See [LICENSE](LICENSE).
+The anonymous implementation of the mechanism analysis and unified attack and defense framework is available at [anonymousndss2027/BackdoorLALM-Code](https://github.com/anonymousndss2027/BackdoorLALM-Code).
