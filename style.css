@@ -39,11 +39,12 @@ body {
 .nav-links .nav-button { padding: 9px 16px; border: 1px solid #cfd7e5; border-radius: 999px; color: var(--ink); background: #fff; }
 
 .hero { max-width: 950px; padding: 104px 0 112px; }
-.hero-logo { display: block; width: 108px; max-width: 108px; height: 96px; margin: 0 0 24px -8px; object-fit: contain; }
+.hero-identity { display: flex; align-items: center; gap: 13px; margin-bottom: 23px; }
+.hero-logo { display: block; flex: 0 0 68px; width: 68px; max-width: 68px; height: 60px; object-fit: contain; }
 .eyebrow, .kicker { color: var(--blue); font-size: 12px; font-weight: 700; letter-spacing: .13em; }
 .eyebrow { display: flex; align-items: center; gap: 10px; }
 .pulse { width: 8px; height: 8px; border-radius: 50%; background: var(--mint); box-shadow: 0 0 0 5px #e2faef; }
-.hero h1 { margin: 26px 0 28px; font: 700 clamp(58px, 7.2vw, 88px)/.99 'Space Grotesk', sans-serif; letter-spacing: -.065em; }
+.hero h1 { margin: 0 0 28px; font: 700 clamp(58px, 7.2vw, 88px)/.99 'Space Grotesk', sans-serif; letter-spacing: -.065em; }
 .hero h1 em { color: var(--blue); font-style: normal; }
 .hero-copy { max-width: 710px; margin: 0; color: var(--muted); font-size: 21px; line-height: 1.48; }
 .hero-actions { display: flex; gap: 13px; margin: 35px 0 30px; }
