@@ -37,6 +37,7 @@ body {
 .nav-links a { color: var(--muted); font-size: 14px; font-weight: 600; text-decoration: none; transition: color .2s ease, border-color .2s ease; }
 .nav-links a:hover { color: var(--ink); }
 .nav-links .nav-button { padding: 9px 16px; border: 1px solid #cfd7e5; border-radius: 999px; color: var(--ink); background: #fff; }
+.code-soon { cursor: default; white-space: nowrap; }
 
 .hero { max-width: 950px; padding: 104px 0 112px; }
 .hero-identity { display: flex; align-items: center; gap: 13px; margin-bottom: 23px; }

@@ -14,4 +14,4 @@ The demo presents the overall framework and representative audio examples for th
 
 ## Code
 
-The anonymous implementation of the mechanism analysis and unified attack and defense framework is available at [anonymousndss2027/BackdoorLALM-Code](https://github.com/anonymousndss2027/BackdoorLALM-Code).
+The implementation of the mechanism analysis and unified attack and defense framework will be released soon.
