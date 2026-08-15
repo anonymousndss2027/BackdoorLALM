@@ -14,4 +14,4 @@ The demo presents the overall framework and representative audio examples for th
 
 ## Code
 
-The implementation of the mechanism analysis and unified attack and defense framework will be released soon.
+Code will be released soon.
